@@ -1,0 +1,45 @@
+.stats {
+    background: #7a74dd; 
+    padding: 80px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+.stats::after {
+    content: '';
+    position: absolute;
+    right: -200px;
+    top: -100px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.08);
+}
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+.stat-circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.stat-circle h3 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.stat-circle p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5ff3c1; 
+}
+  

@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    
+}
+.hero {
+    height: 520px;
+    background: url('/src/assets/hero.jpg') center/cover no-repeat;
+    position: relative;
+}
+.hero-overlay {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    color: white;
+    opacity: 0.5;
+  
+    
+}  
+.hero h1 {
+    font-size: 48px;
+    max-width: 520px;  
+    margin-top: 0;
+}
+.hero-buttons {
+    margin-top: 30px;
+ }
+.primary {
+    background: #30C7A1;
+    color: white;
+    padding: 14px 32px;
+    border: none;
+    cursor: pointer;
+}
