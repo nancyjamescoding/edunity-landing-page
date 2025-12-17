@@ -1,0 +1,45 @@
+.course-cta {
+    display: grid;
+    grid-template-columns: repeat(2, 648px);
+    gap: 30px;
+    justify-content: center;
+    margin: 80px auto;
+  }
+  
+  .cta-card {
+    height: 359px;
+    padding: 50px;
+    color: white;
+    position: relative;
+    background-size: cover;
+  }
+  
+  .cta-card span {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #5ff3c1;
+  }
+  
+  .cta-card h3 {
+    font-size: 28px;
+    margin: 18px 0 25px;
+    max-width: 350px;
+  }
+  
+  .cta-card button {
+    background: #5cc19c;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .purple {
+    background: #7b74e8;
+  }
+  
+  .dark {
+    background: #0b1b33;
+  }
+  
