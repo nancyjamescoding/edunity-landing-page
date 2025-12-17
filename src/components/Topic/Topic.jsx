@@ -17,21 +17,26 @@ const topics = [
 export default function Topics() {
   return (
     <section className="topics">
+      <div className="topics-gap"/>
       <div className="topics-header">
-        <span className="category">CATEGORY</span>
-        <button className="browse-btn">Browse Edunity Courses</button>
+        <div className="topic-header-left">
+            <div className="category">CATEGORY</div>
+            <div className="card-topic">Favorite Topics To Learn</div>
+        </div>
+        <div className="topic-header-right">
+            <button className="browse-btn">Browse Edunity Courses</button>
+        </div>
       </div>
-      <h2>Favorite Topics To Learn</h2>
+      <div className="topics-gap"/>
       <div className="topics-grid">
         {topics.map((topic, index) => (
           <div className="topic-card" key={index}>
-            <div className="topic-icon">
-              <img src={topic.icon} alt={topic.title} />
-            </div>
+            <img src={topic.icon} alt={topic.title} />
             <p>{topic.title}</p>
           </div>
         ))}
       </div>
+      <div className="topics-gap"/>
     </section>
   );
 }

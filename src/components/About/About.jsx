@@ -1,12 +1,10 @@
 import './About.css';
-// import check from '../../assets/icons/check.svg';
-
 
 export default function About() {
   return (
     <section className="about">
       <div className="about-image">
-        <img src="" alt="About Edunity" />
+        <img src="../assets/about1.png" alt="About Edunity" />
       </div>
 
       <div className="about-content">

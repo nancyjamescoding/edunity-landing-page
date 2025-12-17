@@ -4,7 +4,8 @@
 }
 .hero {
     height: 520px;
-    background: url('/src/assets/hero.jpg') center/cover no-repeat;
+    background: url('/src/assets/Gradient.png') center/cover no-repeat;
+
     position: relative;
 }
 .hero-overlay {
@@ -14,8 +15,8 @@
     justify-content: center;
     padding-left: 200px;
     color: white;
-    opacity: 0.5;
-  
+    opacity: 0.5;  
+    background: url('/src/assets/hero.jpg') center/cover no-repeat;
     
 }  
 .hero h1 {

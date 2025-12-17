@@ -12,7 +12,7 @@ const courses = [
     lessons: 2,
     duration: '4h 50m',
     students: 'Students',
-    image: '/images/course1.jpg',
+    image: '../../assets/icons/contentwriting.png',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const courses = [
     lessons: 2,
     duration: '4h 50m',
     students: 'Students',
-    image: '/images/course2.jpg',
+    image: '../../assets/icons/contentwriting.png',
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const courses = [
     lessons: 2,
     duration: '4h 50m',
     students: 'Students',
-    image: '/images/course3.jpg',
+    image: '../../assets/icons/contentwriting.png',
   },
   {
     id: 4,
@@ -51,14 +51,13 @@ const courses = [
     lessons: 2,
     duration: '4h 50m',
     students: 'Students',
-    image: '/images/course4.jpg',
+    image: '../../assets/icons/contentwriting.png',
   },
 ];
-
 export default function Courses() {
   return (
     <section className="courses">
-      {/* HEADER */}
+    
       <div className="courses-header">
         <div>
           <span className="section-tag">TOP POPULAR COURSE</span>
@@ -67,18 +66,13 @@ export default function Courses() {
 
         <button className="browse-btn">Browse Edunity Courses</button>
       </div>
-
-      {/* GRID */}
       <div className="courses-grid">
         {courses.map(course => (
-          <div className="course-card" key={course.id}>
-            {/* IMAGE */}
+       <div className="course-card" key={course.id}>
             <div className="course-image">
               <img src={course.image} alt={course.title} />
               <span className="course-badge">{course.category}</span>
             </div>
-
-            {/* CONTENT */}
             <div className="course-content">
               <div className="rating">
                 ⭐⭐⭐⭐⭐ <span>({course.rating})</span>

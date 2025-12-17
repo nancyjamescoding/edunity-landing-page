@@ -1,0 +1,113 @@
+.register-section {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    padding: 120px 100px;
+    align-items: center;
+  }
+  
+  /* LEFT */
+  .register-left h2 {
+    font-size: 36px;
+    color: #0b1b33;
+    margin: 14px 0 20px;
+  }
+  
+  .register-left p {
+    color: #6b7280;
+    max-width: 520px;
+    line-height: 1.7;
+  }
+  
+  .section-tag {
+    color: #6c63ff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  /* COUNTDOWN */
+  .countdown {
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+  }
+  
+  .time-box {
+    background: #f2f4ff;
+    border-radius: 8px;
+    padding: 18px 20px;
+    text-align: center;
+    min-width: 85px;
+  }
+  
+  .time-box h3 {
+    font-size: 22px;
+    color: #0b1b33;
+  }
+  
+  .time-box span {
+    display: block;
+    margin-top: 6px;
+    background: #6c63ff;
+    color: white;
+    font-size: 11px;
+    padding: 4px 0;
+    border-radius: 4px;
+  }
+  
+  /* RIGHT CARD */
+  .register-card {
+    background: #0b1b33;
+    padding: 45px;
+    border-radius: 16px;
+    color: white;
+    position: relative;
+  }
+  
+  .card-tag {
+    color: #5ff3c1;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  
+  .register-card h3 {
+    font-size: 26px;
+    margin: 12px 0 25px;
+  }
+  
+  /* FORM */
+  .register-card input,
+  .register-card textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+  }
+  
+  .register-card textarea {
+    height: 90px;
+    resize: none;
+  }
+  
+  .register-card button {
+    background: #5cc19c;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .register-section {
+      grid-template-columns: 1fr;
+      padding: 80px 20px;
+    }
+  }
+  
