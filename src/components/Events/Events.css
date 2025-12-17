@@ -1,0 +1,92 @@
+.events {
+    padding: 100px 20px;
+    text-align: center;
+    background: #fafbfe;
+  }
+  
+  .events-tag {
+    font-size: 13px;
+    color: #6c63ff;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  .events h2 {
+    font-size: 36px;
+    color: #0b1b33;
+    margin: 10px 0 60px;
+  }
+  
+  /* GRID */
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* CARD */
+  .event-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    text-align: left;
+  }
+  
+  /* IMAGE */
+  .event-image {
+    position: relative;
+  }
+  
+  .event-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  /* DATE BADGE */
+  .event-date {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #5cc19c;
+    color: #0b1b33;
+    border-radius: 6px;
+    padding: 8px 10px;
+    text-align: center;
+  }
+  
+  .event-date h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .event-date span {
+    font-size: 11px;
+  }
+  
+  .event-content {
+    padding: 25px;
+  }
+  
+  .event-content h3 {
+    font-size: 18px;
+    color: #0b1b33;
+    margin-bottom: 12px;
+  }
+  
+  .event-content p {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+  }
+  .event-meta {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #6b7280;
+  }
+  
