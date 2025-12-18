@@ -1,6 +1,6 @@
 import './About.css';
-import aboutone from '../../assets/about1.png';
-import abouttwo from '../../assets/about2.png';
+import about1 from '@/assets/about1.png';
+import about2 from '@/assets/about2.png';
 import screenIcon from '../../assets/abouticon1.png';
 import controlIcon from '../../assets/abouticon2.png';
 
