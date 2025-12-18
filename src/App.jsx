@@ -13,6 +13,7 @@ import Register from './components/Register/Register'
 import Events from './components/Events/Events'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import Blog from './components/Blog/Blog'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Testimonial/>
         <Register/>
         <Events/>
+        <Blog/>
         <Footer/>
        
       </div>

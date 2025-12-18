@@ -1,6 +1,6 @@
 import './About.css';
 import aboutone from '../../assets/about1.png';
-import aboutTwo from '../../assets/about2.png';
+import abouttwo from '../../assets/about2.png';
 import screenIcon from '../../assets/abouticon1.png';
 import controlIcon from '../../assets/Abouticon2.png';
 
@@ -11,7 +11,7 @@ export default function About() {
 
         <div className="about-images">
           <img src={aboutone} alt="Online Learning" className="about-img-main" />
-          <img src={aboutTwo} alt="Mentorship" className="about-img-sub" />
+          <img src={abouttwo} alt="Mentorship" className="about-img-sub" />
           <span className="decor-square purple"></span>
           <span className="decor-square green"></span>
         </div>
