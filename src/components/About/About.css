@@ -1,65 +1,102 @@
 .about {
+    padding: 100px 0;
+    background: #ffffff;
+} 
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 70px;
-    padding: 100px;
+    gap: 80px;
     align-items: center;
+  }
+  
+.about-images {
+    position: relative;
 }
-.about-image img {
+.about-img-main {
     width: 100%;
-    border-radius: 16px;
-}
-.about-content {
-    max-width: 520px;
+    max-width: 420px;
+   
 }
   
+.about-img-sub {
+    position: absolute;
+    bottom: -60px;
+    left: 140px;
+    width: 260px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+.decor-square {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+  
+.decor-square.purple {
+    background: #6c63ff;
+    bottom: -30px;
+    left: 40px;
+}
+  
+.decor-square.green {
+    background: #6fdcbf;
+    bottom: -15px;
+    left: 65px;
+}
 .section-tag {
-    color: #6c63ff;
-    font-size: 14px;
-    letter-spacing: 2px;
+    font-size: 12px;
     font-weight: 600;
+    letter-spacing: 1px;
+    color: #6c63ff;
 }
   
 .about-content h2 {
-    font-size: 38px;
+    font-size: 36px;
     line-height: 1.3;
-    margin: 20px 0;
-    color: #0b132b;
-} 
-.about-content p {
-    color: #555;
-    margin-bottom: 30px;
-}
-.about-list {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 35px;
+    margin: 12px 0 20px;
+    color: #0b1c39;
 }
   
-.about-list li {
+.about-desc {
+    color: #6b7280;
+    margin-bottom: 32px;
+    max-width: 480px;
+}
+.about-feature {
     display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 14px;
-    font-weight: 500;
-}
+    gap: 16px;
+    margin-bottom: 20px;
+  }
   
-  .about-list img {
-    width: 20px;
-    height: 20px;
+.about-feature img {
+    width: 44px;
+    height: 44px;
+    background: #f1f2ff;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+.about-feature h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #0b1c39;
+  }
+  
+.about-feature p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #6b7280;
   }
 .about-btn {
-    background: #6c63ff;
-    color: white;
-    padding: 14px 32px;
-    border-radius: 6px;
+    margin-top: 28px;
+    background: #6fdcbf;
+    color: #ffffff;
     border: none;
-    font-weight: 500;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: 600;
     cursor: pointer;
-    transition: 0.3s;
-}
-  
-.about-btn:hover {
-    background: #584ee8;
-}
+  }
   

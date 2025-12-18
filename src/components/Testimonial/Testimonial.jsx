@@ -1,30 +1,36 @@
 import './Testimonial.css';
 
-export default function Testimonial() {
+import studentImg  from "../../assets/testimonial.png"
+import avatar from '../../assets/avator.png';
+
+export default function Testimonials() {
   return (
-    <section className="testimonial">
-      <div className="testimonial-image">
-        <img src="/images/student.jpg" alt="Student" />
-      </div>
-
-      <div className="testimonial-card">
-        <p>
-          “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.”
-        </p>
-
-        <div className="author">
-          <img src="/images/avatar.jpg" alt="avatar" />
-          <div>
-            <h4>Gloria Burnett</h4>
-            <span>Software Developer</span>
-          </div>
+    <section className="testimonials">
+      <div className="testimonials-wrapper">
+        <div className="testimonial-image">
+          <img src={studentImg} alt="Student testimonial" />
         </div>
+        <div className="testimonial-card">
+          <span className="quote-icon">“</span>
 
-        <div className="dots">
-          <span className="active"></span>
-          <span></span>
-          <span></span>
+          <p className="testimonial-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          </p>
+          <div className="testimonial-author">
+            <img src={avatar} alt="Gloria Burnett" />
+            <div>
+              <h4>Gloria Burnett</h4>
+              <span>Software Developer</span>
+            </div>
+          </div>
+          <div className="testimonial-dots">
+            <span className="active"></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </section>

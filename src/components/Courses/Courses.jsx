@@ -1,4 +1,10 @@
 import './Courses.css';
+import course1 from "../../assets/course1.png"
+import course2 from "../../assets/course2.png"
+import course3 from "../../assets/course3.png"
+import course4 from "../../assets/course4.png"
+
+
 
 const courses = [
   {
@@ -12,7 +18,7 @@ const courses = [
     lessons: 2,
     duration: '4h 50m',
     students: 'Students',
-    image: '../../assets/icons/contentwriting.png',
+    image: course1,
   },
   {
     id: 2,
@@ -25,7 +31,8 @@ const courses = [
     lessons: 2,
     duration: '4h 50m',
     students: 'Students',
-    image: '../../assets/icons/contentwriting.png',
+    image: course2,
+    
   },
   {
     id: 3,
@@ -38,7 +45,7 @@ const courses = [
     lessons: 2,
     duration: '4h 50m',
     students: 'Students',
-    image: '../../assets/icons/contentwriting.png',
+    image: course3,
   },
   {
     id: 4,
@@ -51,7 +58,7 @@ const courses = [
     lessons: 2,
     duration: '4h 50m',
     students: 'Students',
-    image: '../../assets/icons/contentwriting.png',
+    image: course4,
   },
 ];
 export default function Courses() {

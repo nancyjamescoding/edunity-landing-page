@@ -1,8 +1,8 @@
 import React from "react";
 import "./Topic.css"
 import business from '../../assets/icons/webdesign.png';
-import design from '../../assets/icons/webdesign.png';
-import dev from '../../assets/icons/webdesign.png';
+import design from '../../assets/icons/graphic.png';
+import dev from '../../assets/icons/vedioeditor.png';
 import marketing from '../../assets/icons/marketing.png';
 import photo from '../../assets/icons/contentwriting.png';
 
@@ -13,7 +13,6 @@ const topics = [
   { title: 'Marketing', icon: marketing },
   { title: 'Photography', icon: photo },
 ];
-
 export default function Topics() {
   return (
     <section className="topics">

@@ -1,4 +1,5 @@
-import './Offer.css';
+import './Offer.css'
+import offer from '../../assets/offer.png';
 
 export default function Offer() {
   return (
@@ -21,7 +22,7 @@ export default function Offer() {
           </div>
         </div>
         <div className="offer-video">
-          video icon here
+          <img src={offer} alt="" />
       </div>
       </div>
     </section>

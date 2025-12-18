@@ -1,41 +1,60 @@
 import './About.css';
+import aboutone from '../../assets/about1.png';
+import aboutTwo from '../../assets/about2.png';
+import screenIcon from '../../assets/abouticon1.png';
+import controlIcon from '../../assets/Abouticon2.png';
 
 export default function About() {
   return (
     <section className="about">
-      <div className="about-image">
-        <img src="../assets/about1.png" alt="About Edunity" />
-      </div>
+      <div className="about-container">
 
-      <div className="about-content">
-        <span className="section-tag">ABOUT US</span>
+        <div className="about-images">
+          <img src={aboutone} alt="Online Learning" className="about-img-main" />
+          <img src={aboutTwo} alt="Mentorship" className="about-img-sub" />
+          <span className="decor-square purple"></span>
+          <span className="decor-square green"></span>
+        </div>
 
-        <h2>
-          We Are Always Ensure Best <br />
-          Course For Your Learning
-        </h2>
+        <div className="about-content">
+          <span className="section-tag">ABOUT US</span>
 
-        <p>
-          Edunity is an online learning platform that provides high-quality
-          education resources from top instructors around the world.
-        </p>
+          <h2>
+            We Are Always Ensure Best <br />
+            Course For Your Learning
+          </h2>
 
-        <ul className="about-list">
-          <li>
-            {/* <img src={check} alt="check" /> */}
-            Expert instructors with real experience
-          </li>
-          <li>
-            {/* <img src={check} alt="check" /> */}
-            Lifetime access to all courses
-          </li>
-          <li>
-            {/* <img src={check} alt="check" /> */}
-            Online  offline learning support
-          </li>
-        </ul>
+          <p className="about-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
 
-        <button className="about-btn">Discover More</button>
+          <div className="about-feature">
+            <img src={screenIcon} alt="Sharing Screen" />
+            <div>
+              <h4>Sharing a Screen</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+
+          <div className="about-feature">
+            <img src={controlIcon} alt="Presenter Control" />
+            <div>
+              <h4>Presenter Control</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+
+          <button className="about-btn">ADMISSION NOW</button>
+        </div>
+
       </div>
     </section>
   );

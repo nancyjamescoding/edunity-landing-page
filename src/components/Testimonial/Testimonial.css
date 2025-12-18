@@ -1,51 +1,72 @@
-.testimonial {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    background: #0b1b33;
-    padding: 100px;
-  }
-  
-  .testimonial-image img {
-    width: 100%;
-    border-radius: 16px;
-  }
-  
-  .testimonial-card {
-    background: #7b74e8;
-    padding: 50px;
-    border-radius: 16px;
-    color: white;
-    max-width: 520px;
-  }
-  
-  .author {
-    display: flex;
-    gap: 15px;
-    margin-top: 25px;
-  }
-  
-  .author img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-  }
-  
-  .dots {
-    margin-top: 20px;
-  }
-  
-  .dots span {
-    width: 8px;
-    height: 8px;
-    background: white;
-    opacity: 0.4;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 8px;
-  }
-  
-  .dots .active {
-    opacity: 1;
-  }
-  
+.testimonials {
+  background: #0f2a44;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+.testimonials-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+.testimonial-image img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.testimonial-card {
+  position: relative;
+  background: #7a70e8;
+  color: #fff;
+  padding: 50px 40px;
+  border-radius: 12px;
+}
+.quote-icon {
+  font-size: 48px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  opacity: 0.25;
+}
+.testimonial-text {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.testimonial-author img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+.testimonial-author h4 {
+  font-size: 15px;
+  margin: 0;
+}
+.testimonial-author span {
+  font-size: 13px;
+  opacity: 0.85;
+}
+.testimonial-dots {
+  position: absolute;
+  bottom: 25px;
+  right: 35px;
+  display: flex;
+  gap: 8px;
+}
+.testimonial-dots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+}
+.testimonial-dots span.active {
+  background: #fff;
+}

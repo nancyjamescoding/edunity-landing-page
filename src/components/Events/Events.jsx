@@ -1,4 +1,7 @@
 import './Events.css';
+import  event1 from "../../assets/event1.png"
+import  event2 from "../../assets/event2.png"
+import  event3 from "../../assets/event3.png"
 
 const events = [
   {
@@ -7,7 +10,7 @@ const events = [
     title: 'print, and publishing industries for previewing',
     time: '11:00am - 03:00pm',
     location: 'USA',
-    image: '/images/event1.jpg',
+    image: event1,
   },
   {
     date: '21',
@@ -15,7 +18,7 @@ const events = [
     title: 'print, and publishing industries for previewing',
     time: '11:00am - 03:00pm',
     location: 'USA',
-    image: '/images/event2.jpg',
+    image: event2,
   },
   {
     date: '25',
@@ -23,7 +26,7 @@ const events = [
     title: 'print, and publishing industries for previewing',
     time: '11:00am - 03:00pm',
     location: 'USA',
-    image: '/images/event3.jpg',
+    image: event3,
   },
 ];
 
