@@ -2,7 +2,7 @@ import './About.css';
 import aboutone from '../../assets/about1.png';
 import abouttwo from '../../assets/about2.png';
 import screenIcon from '../../assets/abouticon1.png';
-import controlIcon from '../../assets/Abouticon2.png';
+import controlIcon from '../../assets/abouticon2.png';
 
 export default function About() {
   return (
