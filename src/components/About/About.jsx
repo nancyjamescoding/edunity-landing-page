@@ -1,8 +1,8 @@
 import './About.css';
 import about1 from '@/assets/about1.png';
 import about2 from '@/assets/about2.png';
-import screenIcon from '../../assets/abouticon1.png';
-import controlIcon from '../../assets/abouticon2.png';
+import screenIcon from '@/assets/abouticon1.png';
+import controlIcon from '@/assets/abouticon2.png';
 
 export default function About() {
   return (
@@ -10,8 +10,8 @@ export default function About() {
       <div className="about-container">
 
         <div className="about-images">
-          <img src={aboutone} alt="Online Learning" className="about-img-main" />
-          <img src={abouttwo} alt="Mentorship" className="about-img-sub" />
+          <img src={about1} alt="Online Learning" className="about-img-main" />
+          <img src={about2} alt="Mentorship" className="about-img-sub" />
           <span className="decor-square purple"></span>
           <span className="decor-square green"></span>
         </div>
