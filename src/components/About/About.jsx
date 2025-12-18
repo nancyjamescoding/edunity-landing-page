@@ -2,7 +2,7 @@ import './About.css';
 import about1 from '@/assets/about1.png';
 import about2 from '@/assets/about2.png';
 import abouticon1 from '@/assets/abouticon1.png';
-import abouticon2 from '@/assets/abouticon2.png';
+// import abouticon2 from '@/assets/abouticon2.png';
 
 export default function About() {
   return (
@@ -42,7 +42,7 @@ export default function About() {
           </div>
 
           <div className="about-feature">
-            <img src={abouticon2} alt="Presenter Control" />
+            {/* <img src={abouticon2} alt="Presenter Control" /> */}
             <div>
               <h4>Presenter Control</h4>
               <p>
